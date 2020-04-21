@@ -12,3 +12,4 @@ export default function Greet() {
     <h1>HEllp sappo sap</h1>
 
  
+//export default Greet
