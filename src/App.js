@@ -16,13 +16,15 @@ function App() {
       <Greet name="Eriks" heroName="batman">
         <button>hehe</button>
       </Greet>
-      <Greet name="Test" heroName="wonderman" />
-      <Welcome name="Fon" heroName="superman" />
+ 
       <Welcome name="Eriks" heroName="batman" />
       <Welcome name="Test" heroName="wonderman" />
       <Message />
-      <Hello /> */}
-      <Counter />
+      <Hello /> 
+      <Counter />*/}
+
+      <Greet name="Test" heroName="wonderman" />
+      <Welcome name="Fon" heroName="superman" />
     </div>
   );
 }

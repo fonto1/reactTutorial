@@ -27,6 +27,9 @@ class Counter extends Component {
     );
   }
 
+  // när man uppdate previoustate, skicka alltid en funktion
+  //istället för att uppdatera nuvarande state
+
   incrementFive() {
     this.increment();
     this.increment();

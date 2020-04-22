@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 /*
 export default function Greet() {
     return (
@@ -8,15 +8,18 @@ export default function Greet() {
 
 */
 
- export const Greet = (props) => {  // props kan döpas till vad som helst            DETTA är en funktionkKomponent
-    console.log(props)  // props blir ett objekt o värde är skickad som .name
-
-   return (
+export const Greet = (props) => {
+  // props kan döpas till vad som helst            DETTA är en funktionkKomponent
+  // console.log(props); // props blir ett objekt o värde är skickad som .name
+  const { name, heroName } = props;
+  //console.log(heroName);
+  return (
     <div>
-    <h1>HEllp sappo {props.name} a.k.a {props.heroName} </h1>
-    {props.children}
-    </div>  //reserve plats till children
-   ) 
-
-}
+      <h1>
+        HEllp sappo {props.name} a.k.a {props.heroName}{" "}
+      </h1>
+      {props.children}
+    </div> //reserve plats till children
+  );
+};
 //export default Greet
