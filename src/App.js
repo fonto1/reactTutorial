@@ -6,11 +6,17 @@ import Welcome from "./components/Welcome.js";
 import Hello from "./components/Hello.js";
 import Message from "./components/Message.js";
 import Counter from "./components/Counter.js";
+import { FunctionClick } from "./components/FunctionClick.js";
+import { ClassClicks } from "./components/ClassClicks.js";
+import EventBind from "./components/EventBind.js";
 
 function App() {
   return (
     <div className="App">
-      {/* <Greet name="Fon" heroName="superman">
+      <EventBind />
+      {/* <FunctionClick />
+      <ClassClicks />
+      <Greet name="Fon" heroName="superman">
         <p>this is children props</p>
       </Greet>
       <Greet name="Eriks" heroName="batman">
@@ -21,10 +27,10 @@ function App() {
       <Welcome name="Test" heroName="wonderman" />
       <Message />
       <Hello /> 
-      <Counter />*/}
+      <Counter />
 
       <Greet name="Test" heroName="wonderman" />
-      <Welcome name="Fon" heroName="superman" />
+      <Welcome name="Fon" heroName="superman" />*/}
     </div>
   );
 }
