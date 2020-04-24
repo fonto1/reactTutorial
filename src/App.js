@@ -9,12 +9,15 @@ import Counter from "./components/Counter.js";
 import { FunctionClick } from "./components/FunctionClick.js";
 import { ClassClicks } from "./components/ClassClicks.js";
 import EventBind from "./components/EventBind.js";
+import ParentComponent from "./components/ParentComponent.js";
+import UserGreeting from "./components/UserGreeting.js";
+import NameList from "./components/NameList.js";
 
 function App() {
   return (
     <div className="App">
-      <EventBind />
-      {/* <FunctionClick />
+      {/*<EventBind />
+      <FunctionClick />
       <ClassClicks />
       <Greet name="Fon" heroName="superman">
         <p>this is children props</p>
@@ -31,6 +34,9 @@ function App() {
 
       <Greet name="Test" heroName="wonderman" />
       <Welcome name="Fon" heroName="superman" />*/}
+      <ParentComponent />
+      <UserGreeting />
+      <NameList />
     </div>
   );
 }
